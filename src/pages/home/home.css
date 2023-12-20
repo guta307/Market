@@ -1,5 +1,5 @@
 .home_body {
-  background-color: red;
+  background-color: #fff;
   width: 100vw;
   height: fit-content;
   min-height: 100vh;
@@ -11,9 +11,8 @@
 
 .home_ads {
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  background-color: pink;
+  justify-content: space-between;
+  width: 90%;
 }
 
 @media only screen and (max-width: 1020px) {

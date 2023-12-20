@@ -1,0 +1,22 @@
+.DisplayBox {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 1/1;
+  background: blue;
+}
+
+.DisplayBox h2 {
+  font-size: 30px;
+}
+
+.DisplayBox p {
+  flex-grow: 2;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}

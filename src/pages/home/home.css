@@ -1,0 +1,25 @@
+.home_body {
+  background-color: red;
+  width: 100vw;
+  height: fit-content;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_ads {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: pink;
+}
+
+@media only screen and (max-width: 1020px) {
+  .home_ads {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}

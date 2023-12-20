@@ -4,8 +4,9 @@ import MyCarousel from "../../components/carousel";
 import promo1 from "../../assets/promo/promo1.png";
 import promo2 from "../../assets/promo/promo2.png";
 import "./home.css";
+import { Images } from "../../shared/interfaces/promo";
 const Home = () => {
-  const PromoImages = [
+  const PromoImages: Images[] = [
     {
       src: promo1,
     },

@@ -1,13 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
-
-interface IPromo {
-  src: string;
-}
+import { Images } from "../../shared/interfaces/promo";
 
 // Defina as props do componente MyCarousel
 interface MyCarouselProps {
-  promos: IPromo[];
+  promos: Images[];
 }
 
 const MyCarousel = ({ promos }: MyCarouselProps) => {
